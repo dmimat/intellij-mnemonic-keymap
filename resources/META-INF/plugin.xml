@@ -1,0 +1,41 @@
+<idea-plugin>
+    <name>Mnemonic Keymap</name>
+    <id>com.intellij.plugins.mnemonicKeymap</id>
+    <version>213.0</version>
+    <idea-version since-build="211.0000"/>
+    <vendor>JetBrains</vendor>
+    <category>Keymap</category>
+    <description><![CDATA[
+<p>
+A keymap for all IntelliJ-based IDEs where most shortcuts have two keystrokes:
+the first one defines an action group, and the second one defines an action in this group, for example:
+</p>
+<ul>
+<li><code>Ctrl/Cmd+D, A</code> : <b>Debug > Attach to Process</b></li>
+<li><code>Ctrl/Cmd+N, U</code> : <b>Navigate > Find Usages</b></li>
+</ul>
+
+<p>
+You may want to try out this keymap if some of the following features are important to you:
+</p>
+
+<ul>
+<li>Easy-to-remember mnemonic mappings</li>
+<li>Same shortcuts across different operating systems</li>
+<li>Fewer modifier keys</li>
+<li>No conflicts with system shortcuts</li>
+<li>No conflicts on non-English Latin keyboards</li>
+</ul>
+
+<p>
+Learn more about
+<a href="https://github.com/dmimat/double-chord-keymap/tree/master#readme">specific key mappings</a>
+in this keymap
+</p>
+  ]]></description>
+    <depends>com.intellij.modules.lang</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledKeymap file="Mnemonic Keymap.xml"/>
+        <bundledKeymap file="Mnemonic Keymap OSX.xml"/>
+    </extensions>
+</idea-plugin>
