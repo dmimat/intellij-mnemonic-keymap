@@ -203,6 +203,7 @@ Double-chord shortcuts:
 | `P`          | picture        | **Markdown: Insert Image**               |
 | `R`          | replace        | **Replace**                              |
 | `S`          | scratch        | **New Scratch File**                     |
+| `T`          | type           | **Quick Type Definition**                |
 | `T`          | through        | **Markdown: Strikethrough**              |
 | `U`          | usages         | **Highlight Usages in File**             |
 | `W`          |                | **Copy Path/Reference**                  |

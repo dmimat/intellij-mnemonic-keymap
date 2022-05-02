@@ -403,6 +403,10 @@
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta s"/>
         <keyboard-shortcut first-keystroke="shift meta alt insert"/>
     </action>
+    <action id="QuickTypeDefinition">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="t"/>
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta t"/>
+    </action>
     <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction">
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="t"/>
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta t"/>

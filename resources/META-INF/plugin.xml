@@ -29,11 +29,11 @@ You may want to try out this keymap if some of the following features are import
 
 <p>
 Learn more about
-<a href="https://github.com/dmimat/double-chord-keymap/tree/master#readme">specific key mappings</a>
+<a href="https://github.com/dmimat/intellij-mnemonic-keymap#readme">specific key mappings</a>
 in this keymap
 </p>
   ]]></description>
-    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
         <bundledKeymap file="Mnemonic Keymap.xml"/>
         <bundledKeymap file="Mnemonic Keymap OSX.xml"/>
