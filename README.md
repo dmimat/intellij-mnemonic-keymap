@@ -233,7 +233,7 @@ Double-chord shortcuts:
 
 | Second Chord | Mnemonic   | Action                     |
 |--------------|------------|----------------------------|
-| `0`          | analyze    | **Analyze Quick List**     |
+| `0`          |     | **Analyze Quick List**     |
 | `A`          | analyze    | **Inspect Code**           |
 | `B`          |            | **Inspect This**           |
 | `C`          | calls      | **Call Hierarchy**         |
