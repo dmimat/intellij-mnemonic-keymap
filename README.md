@@ -137,6 +137,7 @@ Double-chord shortcuts:
 
 | Second Chord | Mnemonic    | Action                                   |
 |--------------|-------------|------------------------------------------|
+| `0`          |           | **Code Quick List**                      |
 | `A`          | as          | **Save as Template**                     |
 | `B`          | buffer      | **Paste from History**                   |
 | `C`          | comment     | **Comment/Uncomment with Block Comment** |
@@ -156,6 +157,7 @@ Double-chord shortcuts:
 
 | Second Chord | Mnemonic    | Action                               |
 |--------------|-------------|--------------------------------------|
+| `0`          |             | **Debugger Quick List**              |
 | `A`          | attach      | **Attach to Process**                |
 | `B`          | breakpoints | **View Breakpoints**                 |
 | `C`          | cursor      | **Run to Cursor**                    |
@@ -187,6 +189,7 @@ Double-chord shortcuts:
 
 | Second Chord | Mnemonic       | Action                                   |
 |--------------|----------------|------------------------------------------|
+| `0`          |             | **Code Quick List**                      |
 | `A`          | all            | **Select All Occurrences**               |
 | `B`          | bold           | **Markdown: Bold**                       |
 | `C`          | case           | **Toggle Case**                          |
@@ -212,38 +215,41 @@ Double-chord shortcuts:
 <a id="g"></a>
 ### First chord: Ctrl/Cmd+G (gather) - code folding actions
 
-| Second Chord | Mnemonic    | Action                      |
-|--------------|-------------|-----------------------------|
-| `A`          | all         | **Expand All**              |
-| `B`          | block       | **Fold Code Block**          |
-| `C`          | collapse    | **Collapse**             |
-| `D`          | definitions | **Collapse to Definitions**     |
-| `E`          | expand      | **Expand**               |
-| `O`          | open        | **Expand Recursively**            |
-| `S`          | selection   | **Fold Selection/Remove Region**        |
-| `T`          | toggle      | **Toggle Folding** |
-| `X`          |             | **Collapse All**               |
+| Second Chord | Mnemonic    | Action                           |
+|--------------|-------------|----------------------------------|
+| `0`          |             | **Folding Quick List**           |
+| `A`          | all         | **Expand All**                   |
+| `B`          | block       | **Fold Code Block**              |
+| `C`          | collapse    | **Collapse**                     |
+| `D`          | definitions | **Collapse to Definitions**      |
+| `E`          | expand      | **Expand**                       |
+| `O`          | open        | **Expand Recursively**           |
+| `S`          | selection   | **Fold Selection/Remove Region** |
+| `T`          | toggle      | **Toggle Folding**               |
+| `X`          |             | **Collapse All**                 |
 
 <a id="i"></a>
 ### First chord: Ctrl/Cmd+I (inspect) - code analysis actions
 
 | Second Chord | Mnemonic   | Action                     |
 |--------------|------------|----------------------------|
+| `0`          | analyze    | **Analyze Quick List**     |
 | `A`          | analyze    | **Inspect Code**           |
+| `B`          |            | **Inspect This**           |
 | `C`          | calls      | **Call Hierarchy**         |
 | `E`          | error      | **Error Description**      |
 | `F`          | functions  | **Method Hierarchy**       |
-| `I`          | imports    | **Imports Hierarchy**           |
+| `I`          | imports    | **Imports Hierarchy**      |
 | `N`          | name       | **Run Inspection by Name** |
 | `S`          | stacktrace | **Analyze Stack Trace**    |
 | `T`          | types      | **Type Hierarchy**         |
-| `0`          |            | **Inspect This**           |
 
 <a id="j"></a>
 ### First chord: Ctrl/Cmd+J (jump) - single-destination navigation
 
 | Second Chord | Mnemonic    | Action                           |
 |--------------|-------------|----------------------------------|
+| `0`          |             | **Select In**                    |
 | `A`          | another     | **Move Caret to Matching Brace** |
 | `B`          | breadcrumbs | **Jump to Navigation Bar**       |
 | `C`          | class       | **Type Declaration**             |
@@ -254,13 +260,13 @@ Double-chord shortcuts:
 | `R`          | related     | **Switch Header/Source**         |
 | `S`          | switcher    | **Switcher**                     |
 | `T`          | terminal    | **Open in Terminal**             |
-| `0`          |             | **Select In**                    |
 
 <a id="k"></a>
 ### First chord: Ctrl/Cmd+K (kommit) - VCS actions
 
 | Second Chord | Mnemonic | Action              |
 |--------------|----------|---------------------|
+| `0`          |          | **VCS Operations**  |
 | `A`          | add      | **Add to VCS**      |
 | `B`          | branches | **Branches**        |
 | `C`          | commit   | **Commit**          |
@@ -271,38 +277,40 @@ Double-chord shortcuts:
 | `P`          | push     | **Push**            |
 | `R`          | requests | **Pull Requests**   |
 | `U`          | update   | **Update**          |
-| `0`          |          | **VCS Operations**  |
 
 <a id="l"></a>
 ### First chord: Ctrl/Cmd+L (line) - manipulate code lines
 
-| Second Chord | Mnemonic  | Action                            |
-|--------------|-----------|-----------------------------------|
-| `B`          | bookmark  | **Toggle Bookmark**               |
-| `C`          | comment   | **Comment with Line Comment**     |
+| Second Chord | Mnemonic | Action                            |
+|--------------|---|-----------------------------------|
+| `0`          |   | **Code Quick List**               |
+| `B`          | bookmark | **Toggle Bookmark**               |
+| `C`          | comment | **Comment with Line Comment**     |
 | `D`          | duplicate | **Duplicate Line or Selection**   |
-| `F`          | flag      | **Toggle Bookmark with Mnemonic** |
-| `G`          | go        | **Go to Line**                    |
-| `I`          | indent    | **Auto-Indent Lines**             |
-| `J`          | join      | **Join Lines**                    |
-| `N`          | numbers   | **Show Line Numbers**             |
-| `R`          | reverse   | **Reverse Lines**                 |
-| `S`          | sort      | **Sort Lines**                    |
-| `W`          | wrap      | **Soft-Wrap**                     |
-| `X`          |           | **Delete Line**                   |
+| `F`          | flag | **Toggle Bookmark with Mnemonic** |
+| `G`          | go | **Go to Line**                    |
+| `I`          | indent | **Auto-Indent Lines**             |
+| `J`          | join | **Join Lines**                    |
+| `N`          | numbers | **Show Line Numbers**             |
+| `R`          | reverse | **Reverse Lines**                 |
+| `S`          | sort | **Sort Lines**                    |
+| `W`          | wrap | **Soft-Wrap**                     |
+| `X`          |   | **Delete Line**                   |
 
 <a id="n"></a>
 ### First chord: Ctrl/Cmd+N (navigate) - multiple-destination navigation
 
 | Second Chord | Mnemonic       | Action                                      |
 |--------------|----------------|---------------------------------------------|
+| `0`          |             | **Navigate Quick List**                     |
 | `A`          | all            | **Go to Symbol**                            |
 | `B`          | bookmarks      | **Show Bookmarks**                          |
 | `C`          | class          | **Go to Class**                             |
 | `E`          | edits          | **Recently Changed Files**                  |
 | `F`          | find           | **Find in Files**                           |
+| `G`          | go             | **Search Everywhere**                       |
 | `I`          | implementation | **Go to Implementations / Derived Symbols** |
-| `J`          |         | **Structure / Go to File Member**           |
+| `J`          |                | **Structure / Go to File Member**           |
 | `K`          | kode           | **Go to Implementation**                    |
 | `L`          | list           | **Show Usages**                             |
 | `N`          | navigate       | **Navigate To**                             |
@@ -316,7 +324,6 @@ Double-chord shortcuts:
 | `W`          | watch          | **Add to Watches**                          |
 | `X`          | xtended        | **Find Usages Settings**                    |
 | `Z`          |                | **Recent Changes**                          |
-| `0`          |                | **Search Everywhere**                       |
 
 <a id="o"></a>
 ### First chord: Ctrl/Cmd+O (other) - IDE-specific and plugin-specific actions
@@ -331,25 +338,27 @@ Double-chord shortcuts:
 <a id="p"></a>
 ### First chord: Ctrl/Cmd+P (project) - global project actions
 
-| Second Chord | Mnemonic  | Action                                      |
-|--------------|-----------|---------------------------------------------|
-| `A`          | ant       | **Run Ant Target**                          |
-| `B`          | build     | **Build Project/Solution**                  |
-| `C`          | clean     | **Clean Project/Solution**                  |
-| `N`          | nuget     | **NuGet Quick List**  (Rider)               |
-| `O`          | open      | **Open File or Project**                    |
-| `R`          | rebuild   | **Rebuild Project/Solution**                |
-| `S`          | structure | **Project Structure**                       |
-| `T`          | test      | **C# Interactive** (Rider)                  |
-| `U`          | update    | **Reload All from Disk**                    |
-| `W`          | with me   | **Code With Me**                            |
-| `X`          |           | **Cancel Build**                            |
+| Second Chord | Mnemonic  | Action                        |
+|--------------|-----------|-------------------------------|
+| `0`          |           | **Build Quick List**          |
+| `A`          | ant       | **Run Ant Target**            |
+| `B`          | build     | **Build Project/Solution**    |
+| `C`          | clean     | **Clean Project/Solution**    |
+| `N`          | nuget     | **NuGet Quick List**  (Rider) |
+| `O`          | open      | **Open File or Project**      |
+| `R`          | rebuild   | **Rebuild Project/Solution**  |
+| `S`          | structure | **Project Structure**         |
+| `T`          | test      | **C# Interactive** (Rider)    |
+| `U`          | update    | **Reload All from Disk**      |
+| `W`          | with me   | **Code With Me**              |
+| `X`          |           | **Cancel Build**              |
 
 <a id="r"></a>
 ### First chord: Ctrl/Cmd+R (refactor) - bulk transformations
 
 | Second Chord | Mnemonic  | Action                              |
 |--------------|-----------|-------------------------------------|
+| `0`          |           | **Refactor This**                     |
 | `A`          | all       | **Replace in Files**                |
 | `B`          |           | **Reformat File**                   |
 | `C`          | cleanup   | **Reformat and Cleanup**            |
@@ -373,13 +382,13 @@ Double-chord shortcuts:
 | `X`          |           | **Safe Delete**       |
 | `Y`          |           | **Pull Members Up**             |
 | `Z`          |           | **Push Members Down**       |
-| `0`          |           | **Refactor This**                     |
 
 <a id="t"></a>
 ### First chord: Ctrl/Cmd+T (test) - testing actions
 
 | Second Chord | Mnemonic | Action                           |
 |--------------|----------|----------------------------------|
+| `0`          |          | **Unit Testing Quick List** (Rider) |
 | `A`          | all      | **Run All Tests from Solution** (Rider) |
 | `C`          | cover    | **Run with Coverage / Cover Unit Tests** |
 | `D`          | debug    | **Debug Unit Tests** (Rider)     |
@@ -393,7 +402,6 @@ Double-chord shortcuts:
 | `S`          | show     | **Show Coverage Data**           |
 | `U`          | unit     | **Run under dotMemory Unit** (Rider) |
 | `X`          |          | **Stop Execution** (Rider)       |
-| `0`          |          | **Unit Testing Quick List** (Rider) |
 
 <a id="u"></a>
 ### First chord: Ctrl/Cmd+U (utilities) - global helper actions
@@ -421,6 +429,15 @@ Double-chord shortcuts:
 
 | Second Chord | Mnemonic      | Action                           |
 |--------------|---------------|----------------------------------|
+| `0`          |               | **Tool Windows Quick List**      |
+| `1`          |               | **Toggle Presentation Mode**     |
+| `2`          |               | **Toggle Distraction Free Mode** |
+| `3`          |               | **Toggle Full Screen Mode**      |
+| `4`          |               | **Toggle Zen Mode**              |
+| `5`          |               | **Hide Active Tool Window**      |
+| `6`          |               | **Hide All Tool Windows**        |
+| `7`          |               | **Jump to Last Tool Window**     |
+| `9`          |               | **Maximize Tool Window**         |
 | `A`          | ant           | **Ant Window**                   |
 | `A`          |               | **Build Window** (Rider)         |
 | `B`          | bookmarks     | **Bookmarks Window**             |
@@ -429,26 +446,19 @@ Double-chord shortcuts:
 | `E`          | endpoints     | **Endpoints Window**             |
 | `F`          | find          | **Find Window**                  |
 | `G`          | gradle        | **Gradle Window**                |
+| `G`          | get           | **NuGet Window** (Rider)         |
 | `I`          | il            | **IL Viewer Window** (Rider)     |
 | `J`          |               | **Problems Window**              |
 | `K`          |               | **Services Window**              |
 | `L`          | learn         | **Learn Window**                 |
 | `N`          | notifications | **Notifications Window**         |
-| `O`          |        | **Profiler Window**              |
+| `O`          |               | **Profiler Window**              |
 | `P`          | project       | **Project/Explorer Window**      |
 | `R`          | run           | **Run Window**                   |
 | `S`          | structure     | **Structure Window**             |
 | `T`          | terminal      | **Terminal Window**              |
 | `U`          | unit          | **Unit Tests Window** (Rider)    |
 | `V`          | vcs           | **Version Control Window**       |
-| `X`          |            | **Database Window**              |
+| `X`          |               | **Database Window**              |
 | `Y`          |               | **TODO Window**                  |
-| `Z`          |      | **Hierarchy Window**             |
-| `1`          |               | **Toggle Presentation Mode**     |
-| `2`          |               | **Toggle Distraction Free Mode** |
-| `3`          |               | **Toggle Full Screen Mode**      |
-| `4`          |               | **Toggle Zen Mode**              |
-| `5`          |               | **Hide Active Tool Window**      |
-| `6`          |        | **Hide All Tool Windows**        |
-| `9`          |           | **Maximize Tool Window**         |
-| `0`          |               | **Jump to Last Tool Window**     |
+| `Z`          |               | **Hierarchy Window**             |

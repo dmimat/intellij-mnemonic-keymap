@@ -206,6 +206,14 @@
         <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl u"/>
         <keyboard-shortcut first-keystroke="shift ctrl delete"/>
     </action>
+    <action id="CodeMenu">
+        <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="0"/>
+        <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl 0"/>
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="0"/>
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl 0"/>
+        <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="0"/>
+        <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="ctrl 0"/>
+    </action>
 
     <!--Ctrl+D (Debug. Running and debugging)-->
     <action id="XDebugger.AttachToProcess">
@@ -309,6 +317,10 @@
     <action id="RunClass">
         <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="3"/>
         <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="ctrl 3"/>
+    </action>
+    <action id="TouchBarDebug">
+        <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="0" />
+        <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="ctrl 0" />
     </action>
 
     <!--Ctrl+E (Editor. Editor actions)-->
@@ -459,6 +471,10 @@
         <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl x"/>
         <keyboard-shortcut first-keystroke="shift ctrl subtract"/>
     </action>
+    <action id="FoldingGroup">
+        <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="0" />
+        <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl 0" />
+    </action>
     <action id="ExpandExpandableComponent">
         <keyboard-shortcut first-keystroke="shift enter"/>
         <keyboard-shortcut first-keystroke="ctrl add"/>
@@ -472,6 +488,10 @@
     <action id="InspectCode">
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl a"/>
+    </action>
+    <action id="InspectThis">
+        <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="b"/>
+        <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl b"/>
     </action>
     <action id="CallHierarchy">
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="c"/>
@@ -501,7 +521,7 @@
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="t"/>
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl t"/>
     </action>
-    <action id="InspectThis">
+    <action id="AnalyzeActionsPopup">
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="0"/>
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl 0"/>
     </action>
@@ -672,6 +692,10 @@
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="f"/>
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="ctrl f"/>
     </action>
+    <action id="SearchEverywhere">
+        <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="g"/>
+        <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="ctrl g"/>
+    </action>
     <action id="GotoImplementation">
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="i"/>
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="ctrl i"/>
@@ -730,7 +754,7 @@
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="z"/>
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="ctrl z"/>
     </action>
-    <action id="SearchEverywhere">
+    <action id="GoToMenu">
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="0"/>
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="ctrl 0"/>
     </action>
@@ -813,6 +837,10 @@
     <action id="CancelBuildAction">
         <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="x"/>
         <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="ctrl x"/>
+    </action>
+    <action id="build">
+        <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="0"/>
+        <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="ctrl 0"/>
     </action>
 
     <!--Ctrl+R (Refactor. Actions that apply bulk transformations):-->
@@ -1068,6 +1096,10 @@
         <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="g"/>
         <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl g"/>
     </action>
+    <action id="ActivateNuGetToolWindow">
+        <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="g"/>
+        <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl g"/>
+    </action>
     <action id="ActivateILViewerToolWindow">
         <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="i"/>
         <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl i"/>
@@ -1158,13 +1190,17 @@
         <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="6"/>
         <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl 6"/>
     </action>
+    <action id="JumpToLastWindow">
+        <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="7"/>
+        <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl 7"/>
+    </action>
     <action id="MaximizeToolWindow">
         <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="9"/>
         <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl 9"/>
     </action>
-    <action id="JumpToLastWindow">
-        <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="0"/>
-        <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl 0"/>
+    <action id="ToolWindowsGroup">
+        <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="0" />
+        <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl 0" />
     </action>
 
     <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive"/>
