@@ -487,6 +487,10 @@
         <keyboard-shortcut first-keystroke="meta g" second-keystroke="s"/>
         <keyboard-shortcut first-keystroke="meta g" second-keystroke="meta s"/>
     </action>
+    <action id="RiderExpandCollapse">
+        <keyboard-shortcut first-keystroke="meta g" second-keystroke="t"/>
+        <keyboard-shortcut first-keystroke="meta g" second-keystroke="meta t"/>
+    </action>
     <action id="CollapseAllRegions">
         <keyboard-shortcut first-keystroke="meta g" second-keystroke="x"/>
         <keyboard-shortcut first-keystroke="meta g" second-keystroke="meta x"/>
