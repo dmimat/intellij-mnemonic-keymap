@@ -598,6 +598,14 @@
         <keyboard-shortcut first-keystroke="meta j" second-keystroke="t"/>
         <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta t"/>
     </action>
+    <action id="GotoNextBookmark">
+        <keyboard-shortcut first-keystroke="meta j" second-keystroke="x"/>
+        <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta x"/>
+    </action>
+    <action id="GotoPreviousBookmark">
+        <keyboard-shortcut first-keystroke="meta j" second-keystroke="z"/>
+        <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta z"/>
+    </action>
     <action id="SelectIn">
         <keyboard-shortcut first-keystroke="meta j" second-keystroke="0"/>
         <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta 0"/>

@@ -577,6 +577,14 @@
         <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="t"/>
         <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl t"/>
     </action>
+    <action id="GotoNextBookmark">
+        <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="x"/>
+        <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl x"/>
+    </action>
+    <action id="GotoPreviousBookmark">
+        <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="z"/>
+        <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl z"/>
+    </action>
     <action id="SelectIn">
         <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="0"/>
         <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl 0"/>

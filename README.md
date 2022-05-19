@@ -260,6 +260,8 @@ Double-chord shortcuts:
 | `R`          | related     | **Switch Header/Source**         |
 | `S`          | switcher    | **Switcher**                     |
 | `T`          | terminal    | **Open in Terminal**             |
+| `X`          |             | **Next Bookmark**                |
+| `Z`          |             | **Previous Bookmark**            |
 
 <a id="k"></a>
 ### First chord: Ctrl/Cmd+K (kommit) - VCS actions
