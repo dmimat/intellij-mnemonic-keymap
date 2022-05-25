@@ -1,12 +1,12 @@
 <idea-plugin>
     <name>Mnemonic Keymap</name>
     <id>com.intellij.plugins.mnemonicKeymap</id>
-    <version>2022.1.2</version>
+    <version>2022.1.3</version>
     <idea-version since-build="211.0000"/>
     <vendor>JetBrains</vendor>
     <category>Keymap</category>
     <change-notes>
-        The second keystroke `0` in each group is assigned to a quick list of most popular actions in that group.
+        The standard macOS `Cmd+Shift+Z` shortcut for `Redo` is added
     </change-notes>
 
     <description><![CDATA[
