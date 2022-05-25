@@ -163,6 +163,7 @@
 
     <!--Standard editor shortcuts are single-chord too-->
     <action id="$Redo">
+        <keyboard-shortcut first-keystroke="shift meta z"/>
         <keyboard-shortcut first-keystroke="meta y"/>
         <keyboard-shortcut first-keystroke="shift alt back_space"/>
     </action>
@@ -1134,6 +1135,10 @@
         <keyboard-shortcut first-keystroke="meta w" second-keystroke="meta g"/>
     </action>
     <action id="ActivateILViewerToolWindow">
+        <keyboard-shortcut first-keystroke="meta w" second-keystroke="i"/>
+        <keyboard-shortcut first-keystroke="meta w" second-keystroke="meta i"/>
+    </action>
+    <action id="ActivateInspectorToolWindow">
         <keyboard-shortcut first-keystroke="meta w" second-keystroke="i"/>
         <keyboard-shortcut first-keystroke="meta w" second-keystroke="meta i"/>
     </action>

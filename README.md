@@ -450,6 +450,7 @@ Double-chord shortcuts:
 | `G`          | gradle        | **Gradle Window**                |
 | `G`          | get           | **NuGet Window** (Rider)         |
 | `I`          | il            | **IL Viewer Window** (Rider)     |
+| `I`          | inspect       | **Inspector Window** (MPS)       |
 | `J`          |               | **Problems Window**              |
 | `K`          |               | **Services Window**              |
 | `L`          | learn         | **Learn Window**                 |
