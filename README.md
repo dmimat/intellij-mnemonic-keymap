@@ -43,16 +43,16 @@ Double-chord shortcuts:
 ## Single-chord shortcuts
 
 ### Standard editor shortcuts
-| Windows/Linux | macOS   | Action         |
-|---------------|---------|----------------|
-| `Ctrl+A`      | `Cmd+A` | **Select All** |
-| `Ctrl+C`      | `Cmd+C` | **Copy**       |
-| `Ctrl+F`      | `Cmd+F` | **Find**       |
-| `Ctrl+S`      | `Cmd+S` | **Save**       |
-| `Ctrl+V`      | `Cmd+V` | **Paste**      |
-| `Ctrl+X`      | `Cmd+X` | **Cut**        |
-| `Ctrl+Y`      | `Cmd+Y` | **Redo**       |
-| `Ctrl+Z`      | `Cmd+Z` | **Undo**       |
+| Windows/Linux           | macOS                 | Action         |
+|-------------------------|-----------------------|----------------|
+| `Ctrl+A`                | `Cmd+A`               | **Select All** |
+| `Ctrl+C`                | `Cmd+C`               | **Copy**       |
+| `Ctrl+F`                | `Cmd+F`               | **Find**       |
+| `Ctrl+S`                | `Cmd+S`               | **Save**       |
+| `Ctrl+V`                | `Cmd+V`               | **Paste**      |
+| `Ctrl+X`                | `Cmd+X`               | **Cut**        |
+| `Ctrl+Y` `Ctrl+Shift+Z` | `Cmd+Y` `Cmd+Shift+Z` | **Redo**       |
+| `Ctrl+Z`                | `Cmd+Z`               | **Undo**       |
 
 ### Standard macOS application shortcuts 
 |         |                            |
