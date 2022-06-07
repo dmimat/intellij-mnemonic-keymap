@@ -6,9 +6,10 @@
     <vendor>JetBrains</vendor>
     <category>Keymap</category>
     <change-notes>
-        The standard macOS `Cmd+Shift+Z` shortcut for `Redo` is added
-    </change-notes>
 
+    </change-notes>
+    F7-F12 shortcuts are rearranged so that stepping actions now have single F-key shortcuts:
+    `F7`- Step Out, `F8` - Resume, `F9` - Step Over, `F10` - Step Into
     <description><![CDATA[
 <p>
 A keymap for all IntelliJ-based IDEs where most shortcuts have two keystrokes:
