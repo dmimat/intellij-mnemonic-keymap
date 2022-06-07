@@ -89,26 +89,27 @@ Double-chord shortcuts:
 | `F6`                 | `F6`                 | **Next Emmet Edit Point**                                    |
 | `Shift+F6`           | `Shift+F6`           | **Previous Emmet Edit Point**                                |
 |||
-| `F7`                 | `F7`                 | **Move Caret to Code Block Start**                           |
-| `F8`                 | `F8`                 | **Move Caret to Code Block End**                             |
+| `Ctrl+F7`            | `Cmd+F7`             | **Move Caret to Code Block Start**                           |
+| `Ctrl+F8`            | `Cmd+F8`             | **Move Caret to Code Block End**                             |
 | `Shift+F7`           | `Shift+F7`           | **Move Caret to Code Block Start with Selection**            |
 | `Shift+F8`           | `Shift+F8`           | **Move Caret to Code Block End with Selection**              |
 ||||
 | `Ctrl+Shift+F7`      | `Cmd+Shift+F7`       | **Go to Containing Declaration**                             |
 | `Ctrl+Shift+F8`      | `Cmd+Shift+F8`       | **Select Containing Declaration**                            |
 ||||
-| `Ctrl+F6`            | `Cmd+F6`             | **Unselect Occurrence**                                      |
-| `Ctrl+F7`            | `Cmd+F7`             | **Add selection for Next Occurrence**                        |
+| `Ctrl+F6`            | `Cmd+F6`             | **Add selection for Next Occurrence**                        |
+| `Ctrl+Shift+F6`      | `Cmd+Shift+F6`       | **Unselect Occurrence**                                      |
 ||||
-| `F10`                | `F10`                | **Extend Selection**                                         |
-| `F9`                 | `F9`                 | **Shrink Selection**                                         |
+| `F7`                 | `F7`                 | **Step Out**                                                 |
+| `F8`                 | `F8`                 | **Resume Program**                                           |
+| `F9`                 | `F9`                 | **Step Over**                                                |
+| `Shift+F9`           | `Shift+F9`           | **Force Step Over**                                          |
+| `F10`                | `F10`                | **Step Into**                                                |
+| `Shift+F10`          | `Shift+F10`          | **Force Step Into**                                          |
+| `Ctrl+Shift+F10`     | `Cmd+Shift+F10`      | **Smart Step Into**                                          |
 ||||
-| `Ctrl+F8`            | `Cmd+F8`             | **Step Into**                                                |
-| `Ctrl+F9`            | `Cmd+F9`             | **Step Over**                                                |
-| `Ctrl+F10`           | `Cmd+F10`            | **Force Step Over**                                          |
-| `Ctrl+F11`           | `Cmd+F11`            | **Force Step Into**                                          |
-| `Shift+F11`          | `Shift+F11`          | **Smart Step Into**                                          |
-| `Ctrl+F12`           | `Cmd+F12`            | **Step Out**                                                 |
+| `F12`                | `F12`                | **Extend Selection**                                         |
+| `Shift+F12`          | `Shift+F12`          | **Shrink Selection**                                         |
 ||||
 | `Alt+Shift+Down`     | `Ctrl+Shift+Down`    | **Move Statement Down**                                      |
 | `Alt+Shift+Up`       | `Ctrl+Shift+Up`      | **Move Statement Up**                                        |
@@ -164,7 +165,6 @@ Double-chord shortcuts:
 | `D`          | debug       | **Debug Selected Configuration**     |
 | `E`          | evaluate    | **Evaluate Expression**              |
 | `F`          | find        | **Show Execution Point**             |
-| `G`          | go on       | **Resume Program**                   |
 | `I`          | immediate   | **Navigate to Immediate Window**     |
 | `J`          | jump        | **Jump to Statement**                |
 | `K`          | konfig      | **Edit Configurations**              |
@@ -308,6 +308,7 @@ Double-chord shortcuts:
 | `A`          | all            | **Go to Symbol**                            |
 | `B`          | bookmarks      | **Show Bookmarks**                          |
 | `C`          | class          | **Go to Class**                             |
+| `D`          | declaration    | **Go to Declaration**                       |
 | `E`          | edits          | **Recently Changed Files**                  |
 | `F`          | find           | **Find in Files**                           |
 | `G`          | go             | **Search Everywhere**                       |
