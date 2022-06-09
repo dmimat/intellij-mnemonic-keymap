@@ -210,6 +210,10 @@
         <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl u"/>
         <keyboard-shortcut first-keystroke="shift ctrl delete"/>
     </action>
+    <action id="CopyAsPlainText">
+        <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="x"/>
+        <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl x"/>
+    </action>
     <action id="CodeMenu">
         <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="0"/>
         <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl 0"/>

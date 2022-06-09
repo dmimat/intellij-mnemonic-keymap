@@ -231,6 +231,10 @@
         <keyboard-shortcut first-keystroke="meta b" second-keystroke="meta u"/>
         <keyboard-shortcut first-keystroke="shift meta delete"/>
     </action>
+    <action id="CopyAsPlainText">
+        <keyboard-shortcut first-keystroke="meta b" second-keystroke="x"/>
+        <keyboard-shortcut first-keystroke="meta b" second-keystroke="meta x"/>
+    </action>
     <action id="CodeMenu">
         <keyboard-shortcut first-keystroke="meta b" second-keystroke="0"/>
         <keyboard-shortcut first-keystroke="meta b" second-keystroke="meta 0"/>
