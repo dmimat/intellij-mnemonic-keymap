@@ -348,6 +348,7 @@ Double-chord shortcuts:
 | `A`          | ant       | **Run Ant Target**            |
 | `B`          | build     | **Build Project/Solution**    |
 | `C`          | clean     | **Clean Project/Solution**    |
+| `F`          | file      | **Add New File**              |
 | `N`          | nuget     | **NuGet Quick List**  (Rider) |
 | `O`          | open      | **Open File or Project**      |
 | `R`          | rebuild   | **Rebuild Project/Solution**  |
@@ -394,11 +395,13 @@ Double-chord shortcuts:
 |--------------|----------|------------------------------------------|
 | `0`          |          | **Unit Testing Quick List** (Rider)      |
 | `A`          | all      | **Run All Tests from Solution** (Rider)  |
+| `A`          | again    | **Rerun Tests**                          |
 | `C`          | cover    | **Run with Coverage / Cover Unit Tests** |
 | `D`          | debug    | **Debug Unit Tests** (Rider)             |
 | `F`          | failed   | **Rerun Failed Tests** (Rider)           |
 | `G`          | go       | **Go to Test**                           |
 | `L`          | last     | **Repeat Previous Run** (Rider)          |
+| `L`          | latest   | **Recent Tests**                         |
 | `N`          | new      | **Create New Session** (Rider)           |
 | `P`          | profile  | **Profile / Profile Unit Tests**         |
 | `R`          | run      | **Run Unit Tests** (Rider)               |

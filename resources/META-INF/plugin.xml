@@ -1,13 +1,12 @@
 <idea-plugin>
     <name>Mnemonic Keymap</name>
     <id>com.intellij.plugins.mnemonicKeymap</id>
-    <version>2022.1.5</version>
+    <version>2022.2.1</version>
     <idea-version since-build="211.0000"/>
     <vendor>JetBrains</vendor>
     <category>Keymap</category>
     <change-notes>
-        F7-F12 shortcuts are rearranged so that stepping actions now have single F-key shortcuts:
-        `F7`- Step Out, `F8` - Resume, `F9` - Step Over, `F10` - Step Into
+        Shortcuts for Java unit test actions and for new file in project
     </change-notes>
 
     <description><![CDATA[

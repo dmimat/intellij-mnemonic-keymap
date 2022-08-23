@@ -837,6 +837,10 @@
         <keyboard-shortcut first-keystroke="meta p" second-keystroke="c"/>
         <keyboard-shortcut first-keystroke="meta p" second-keystroke="meta c"/>
     </action>
+    <action id="NewElement">
+        <keyboard-shortcut first-keystroke="meta p" second-keystroke="f"/>
+        <keyboard-shortcut first-keystroke="meta p" second-keystroke="meta f"/>
+    </action>
     <action id="RiderNuGetQuickListPopupAction">
         <keyboard-shortcut first-keystroke="meta p" second-keystroke="n"/>
         <keyboard-shortcut first-keystroke="meta p" second-keystroke="meta n"/>
@@ -978,6 +982,10 @@
         <keyboard-shortcut first-keystroke="meta t" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="meta t" second-keystroke="meta a"/>
     </action>
+    <action id="RerunTests">
+        <keyboard-shortcut first-keystroke="meta t" second-keystroke="a"/>
+        <keyboard-shortcut first-keystroke="meta t" second-keystroke="meta a"/>
+    </action>
     <action id="RiderUnitTestCoverContextAction">
         <keyboard-shortcut first-keystroke="meta t" second-keystroke="c"/>
         <keyboard-shortcut first-keystroke="meta t" second-keystroke="meta c"/>
@@ -999,6 +1007,10 @@
         <keyboard-shortcut first-keystroke="meta t" second-keystroke="meta g"/>
     </action>
     <action id="RiderUnitTestRepeatPreviousRunAction">
+        <keyboard-shortcut first-keystroke="meta t" second-keystroke="l"/>
+        <keyboard-shortcut first-keystroke="meta t" second-keystroke="meta l"/>
+    </action>
+    <action id="ShowRecentTests">
         <keyboard-shortcut first-keystroke="meta t" second-keystroke="l"/>
         <keyboard-shortcut first-keystroke="meta t" second-keystroke="meta l"/>
     </action>

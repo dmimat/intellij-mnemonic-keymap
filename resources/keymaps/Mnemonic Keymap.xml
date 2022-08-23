@@ -816,6 +816,10 @@
         <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="c"/>
         <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="ctrl c"/>
     </action>
+    <action id="NewElement">
+        <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="f"/>
+        <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="ctrl f"/>
+    </action>
     <action id="RiderNuGetQuickListPopupAction">
         <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="n"/>
         <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="ctrl n"/>
@@ -957,6 +961,10 @@
         <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl a"/>
     </action>
+    <action id="RerunTests">
+        <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="a"/>
+        <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl a"/>
+    </action>
     <action id="RiderUnitTestCoverContextAction">
         <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="c"/>
         <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl c"/>
@@ -978,6 +986,10 @@
         <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl g"/>
     </action>
     <action id="RiderUnitTestRepeatPreviousRunAction">
+        <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="l"/>
+        <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl l"/>
+    </action>
+    <action id="ShowRecentTests">
         <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="l"/>
         <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl l"/>
     </action>
