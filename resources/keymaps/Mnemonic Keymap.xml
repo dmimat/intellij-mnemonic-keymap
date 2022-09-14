@@ -614,6 +614,10 @@
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d"/>
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d"/>
     </action>
+    <action id="Compare.SameVersion">
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d"/>
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d"/>
+    </action>
     <action id="Git.Fetch">
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f"/>
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f"/>

@@ -1,12 +1,12 @@
 <idea-plugin>
     <name>Mnemonic Keymap</name>
     <id>com.intellij.plugins.mnemonicKeymap</id>
-    <version>2022.2.2</version>
+    <version>2022.2.3</version>
     <idea-version since-build="211.0000"/>
     <vendor>JetBrains</vendor>
     <category>Keymap</category>
     <change-notes>
-        Removed the mapping from the 'Ctrl+.' shortcut to make it available for emoji picker on Ubuntu 21.10.
+        'Show diff' shortcut (`Cmd/Ctrl+K, D`) now also works when the focus is in the editor
     </change-notes>
 
     <description><![CDATA[
