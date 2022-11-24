@@ -349,6 +349,22 @@
     </action>
 
     <!--meta+E (Editor. Editor actions)-->
+    <action id="StretchSplitToLeft">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="1" />
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta 1" />
+    </action>
+    <action id="StretchSplitToRight">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="4" />
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta 4" />
+    </action>
+    <action id="StretchSplitToTop">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="2" />
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta 2" />
+    </action>
+    <action id="StretchSplitToBottom">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="3" />
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta 3" />
+    </action>
     <action id="SelectAllOccurrences">
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta a"/>
@@ -438,6 +454,10 @@
     <action id="CloseContent">
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="x"/>
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta x"/>
+    </action>
+    <action id="ExpressionTypeInfo">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="y"/>
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta y"/>
     </action>
     <action id="CopyPaths"/>
     <action id="CopyReference"/>
@@ -586,6 +606,10 @@
         <keyboard-shortcut first-keystroke="meta j" second-keystroke="f"/>
         <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta f"/>
     </action>
+    <action id="SelectInProjectView">
+        <keyboard-shortcut first-keystroke="meta j" second-keystroke="p"/>
+        <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta p"/>
+    </action>
     <action id="LocateInSolutionView">
         <keyboard-shortcut first-keystroke="meta j" second-keystroke="p"/>
         <keyboard-shortcut first-keystroke="meta j" second-keystroke="meta p"/>
@@ -658,6 +682,10 @@
     <action id="Vcs.UpdateProject">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="u"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u"/>
+    </action>
+    <action id="ChangesView.Revert">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="z"/>
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta z"/>
     </action>
     <action id="Vcs.QuickListPopupAction">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="0"/>
@@ -1056,6 +1084,26 @@
     </action>
 
     <!--meta+U (Utilities)-->
+    <action id="ResizeToolWindowLeft">
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="1" />
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta 1" />
+        <keyboard-shortcut first-keystroke="control alt LEFT"/>
+    </action>
+    <action id="ResizeToolWindowRight">
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="4" />
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta 4" />
+        <keyboard-shortcut first-keystroke="control alt RIGHT"/>
+    </action>
+    <action id="ResizeToolWindowUp">
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="2" />
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta 2" />
+        <keyboard-shortcut first-keystroke="control alt UP"/>
+    </action>
+    <action id="ResizeToolWindowDown">
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="3" />
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta 3" />
+        <keyboard-shortcut first-keystroke="control alt DOWN"/>
+    </action>
     <action id="GotoAction">
         <keyboard-shortcut first-keystroke="meta u" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta a"/>
@@ -1065,8 +1113,8 @@
         <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta b"/>
     </action>
     <action id="LocalHistory">
-        <keyboard-shortcut first-keystroke="meta e" second-keystroke="c"/>
-        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta c"/>
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="c"/>
+        <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta c"/>
     </action>
     <action id="ContextHelp">
         <keyboard-shortcut first-keystroke="meta u" second-keystroke="d"/>
@@ -1265,7 +1313,6 @@
     <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive"/>
     <action id="ChangesView.GroupBy.Directory"/>
     <action id="ChangesView.Rename"/>
-    <action id="ChangesView.Revert"/>
     <action id="ChangesView.ShelveSilently"/>
     <action id="ChangesView.UnshelveSilently"/>
     <action id="CloseActiveTab"/>
@@ -1279,7 +1326,6 @@
     <action id="XDebugger.MoveWatchDown"/>
     <action id="EditorScrollToCenter"/>
     <action id="ExportToTextFile"/>
-    <action id="ExpressionTypeInfo"/>
     <action id="ExternalJavaDoc"/>
     <action id="ExternalSystem.ProjectRefreshAction"/>
     <action id="FindUsagesInFile"/>

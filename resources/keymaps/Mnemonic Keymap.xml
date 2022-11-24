@@ -328,6 +328,22 @@
     </action>
 
     <!--Ctrl+E (Editor. Editor actions)-->
+    <action id="StretchSplitToLeft">
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="1" />
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl 1" />
+    </action>
+    <action id="StretchSplitToRight">
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="4" />
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl 4" />
+    </action>
+    <action id="StretchSplitToTop">
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="2" />
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl 2" />
+    </action>
+    <action id="StretchSplitToBottom">
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="3" />
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl 3" />
+    </action>
     <action id="SelectAllOccurrences">
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl a"/>
@@ -417,6 +433,10 @@
     <action id="CloseContent">
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="x"/>
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl x"/>
+    </action>
+    <action id="ExpressionTypeInfo">
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="y"/>
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl y"/>
     </action>
     <action id="CopyPaths"/>
     <action id="CopyReference"/>
@@ -565,6 +585,10 @@
         <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="f"/>
         <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl f"/>
     </action>
+    <action id="SelectInProjectView">
+        <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="p"/>
+        <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl p"/>
+    </action>
     <action id="LocateInSolutionView">
         <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="p"/>
         <keyboard-shortcut first-keystroke="ctrl j" second-keystroke="ctrl p"/>
@@ -637,6 +661,10 @@
     <action id="Vcs.UpdateProject">
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="u"/>
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u"/>
+    </action>
+    <action id="ChangesView.Revert">
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="z"/>
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl z"/>
     </action>
     <action id="Vcs.QuickListPopupAction">
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="0"/>
@@ -1035,6 +1063,26 @@
     </action>
 
     <!--Ctrl+U (Utilities)-->
+    <action id="ResizeToolWindowLeft">
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="1" />
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl 1" />
+        <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+    </action>
+    <action id="ResizeToolWindowRight">
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="4" />
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl 4" />
+        <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+    </action>
+    <action id="ResizeToolWindowUp">
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="2" />
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl 2" />
+        <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    </action>
+    <action id="ResizeToolWindowDown">
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="3" />
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl 3" />
+        <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+    </action>
     <action id="GotoAction">
         <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl a"/>
@@ -1044,8 +1092,8 @@
         <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl b"/>
     </action>
     <action id="LocalHistory">
-        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="c"/>
-        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl c"/>
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="c"/>
+        <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl c"/>
     </action>
     <action id="ContextHelp">
         <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="d"/>
@@ -1244,7 +1292,6 @@
     <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive"/>
     <action id="ChangesView.GroupBy.Directory"/>
     <action id="ChangesView.Rename"/>
-    <action id="ChangesView.Revert"/>
     <action id="ChangesView.ShelveSilently"/>
     <action id="ChangesView.UnshelveSilently"/>
     <action id="CloseActiveTab"/>
@@ -1258,7 +1305,6 @@
     <action id="XDebugger.MoveWatchDown"/>
     <action id="EditorScrollToCenter"/>
     <action id="ExportToTextFile"/>
-    <action id="ExpressionTypeInfo"/>
     <action id="ExternalJavaDoc"/>
     <action id="ExternalSystem.ProjectRefreshAction"/>
     <action id="FindUsagesInFile"/>

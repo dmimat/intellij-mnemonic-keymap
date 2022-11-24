@@ -190,6 +190,10 @@ Double-chord shortcuts:
 
 | Second Chord | Mnemonic       | Action                                   |
 |--------------|----------------|------------------------------------------|
+| `1`          |                | **Stretch Split Tab Left**               |
+| `4`          |                | **Stretch Split Tab Right**              |
+| `2`          |                | **Stretch Split Tab Up**                 |
+| `3`          |                | **Stretch Split Tab Down**               |
 | `0`          |                | **Code Quick List**                      |
 | `A`          | all            | **Select All Occurrences**               |
 | `B`          | bold           | **Markdown: Bold**                       |
@@ -212,6 +216,7 @@ Double-chord shortcuts:
 | `U`          | usages         | **Highlight Usages in File**             |
 | `W`          |                | **Copy Path/Reference**                  |
 | `X`          |                | **Close Tab**                            |
+| `Y`          | tYpe           | **Type Info**                            |
 
 <a id="g"></a>
 ### First chord: Ctrl/Cmd+G (gather) - code folding actions
@@ -248,38 +253,39 @@ Double-chord shortcuts:
 <a id="j"></a>
 ### First chord: Ctrl/Cmd+J (jump) - single-destination navigation
 
-| Second Chord | Mnemonic    | Action                           |
-|--------------|-------------|----------------------------------|
-| `0`          |             | **Select In**                    |
-| `A`          | another     | **Move Caret to Matching Brace** |
-| `B`          | breadcrumbs | **Jump to Navigation Bar**       |
-| `C`          | class       | **Type Declaration**             |
-| `D`          | declaration | **Go to Declaration**            |
-| `E`          | editor      | **Jump to Source**               |
-| `F`          | files       | **File Path**                    |
-| `P`          | project     | **Locate in Solution View**      |
-| `R`          | related     | **Switch Header/Source**         |
-| `S`          | switcher    | **Switcher**                     |
-| `T`          | terminal    | **Open in Terminal**             |
-| `X`          |             | **Next Bookmark**                |
-| `Z`          |             | **Previous Bookmark**            |
+| Second Chord | Mnemonic    | Action                              |
+|--------------|-------------|-------------------------------------|
+| `0`          |             | **Select In**                       |
+| `A`          | another     | **Move Caret to Matching Brace**    |
+| `B`          | breadcrumbs | **Jump to Navigation Bar**          |
+| `C`          | class       | **Type Declaration**                |
+| `D`          | declaration | **Go to Declaration**               |
+| `E`          | editor      | **Jump to Source**                  |
+| `F`          | files       | **File Path**                       |
+| `P`          | project     | **Locate in Project/Soluiton View** |
+| `R`          | related     | **Switch Header/Source**            |
+| `S`          | switcher    | **Switcher**                        |
+| `T`          | terminal    | **Open in Terminal**                |
+| `X`          |             | **Next Bookmark**                   |
+| `Z`          |             | **Previous Bookmark**               |
 
 <a id="k"></a>
 ### First chord: Ctrl/Cmd+K (kommit) - VCS actions
 
-| Second Chord | Mnemonic | Action              |
-|--------------|----------|---------------------|
-| `0`          |          | **VCS Operations**  |
-| `A`          | add      | **Add to VCS**      |
-| `B`          | branches | **Branches**        |
-| `C`          | commit   | **Commit**          |
-| `D`          | diff     | **Show Diff**       |
-| `F`          | fetch    | **Fetch**           |
-| `K`          | kommit   | **Commit and Push** |
-| `L`          |          | **Pull**            |
-| `P`          | push     | **Push**            |
-| `R`          | requests | **Pull Requests**   |
-| `U`          | update   | **Update**          |
+| Second Chord | Mnemonic | Action               |
+|--------------|----------|----------------------|
+| `0`          |          | **VCS Operations**   |
+| `A`          | add      | **Add to VCS**       |
+| `B`          | branches | **Branches**         |
+| `C`          | commit   | **Commit**           |
+| `D`          | diff     | **Show Diff**        |
+| `F`          | fetch    | **Fetch**            |
+| `K`          | kommit   | **Commit and Push**  |
+| `L`          |          | **Pull**             |
+| `P`          | push     | **Push**             |
+| `R`          | requests | **Pull Requests**    |
+| `U`          | update   | **Update**           |
+| `Z`          |          | **Revert/Roll back** |
 
 <a id="l"></a>
 ### First chord: Ctrl/Cmd+L (line) - manipulate code lines
@@ -415,6 +421,10 @@ Double-chord shortcuts:
 
 | Second Chord | Mnemonic      | Action                        |
 |--------------|---------------|-------------------------------|
+| `1`          |               | **Stretch Window Left**       |
+| `4`          |               | **Stretch Window Right**      |
+| `2`          |               | **Stretch Window Up**         |
+| `3`          |               | **Stretch Window Down**       |
 | `A`          | action        | **Find Action**               |
 | `B`          | browser       | **Open in Browser** (Tasks)   |
 | `C`          | changes       | **Local History**             |
