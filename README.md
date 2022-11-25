@@ -262,7 +262,7 @@ Double-chord shortcuts:
 | `D`          | declaration | **Go to Declaration**               |
 | `E`          | editor      | **Jump to Source**                  |
 | `F`          | files       | **File Path**                       |
-| `P`          | project     | **Locate in Project/Soluiton View** |
+| `P`          | project     | **Locate in Project/Solution View** |
 | `R`          | related     | **Switch Header/Source**            |
 | `S`          | switcher    | **Switcher**                        |
 | `T`          | terminal    | **Open in Terminal**                |
