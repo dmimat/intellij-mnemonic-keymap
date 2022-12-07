@@ -971,6 +971,10 @@
         <keyboard-shortcut first-keystroke="meta r" second-keystroke="r"/>
         <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r"/>
     </action>
+    <action id="RenameFile">
+        <keyboard-shortcut first-keystroke="meta r" second-keystroke="r"/>
+        <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r"/>
+    </action>
     <action id="ChangeSignature">
         <keyboard-shortcut first-keystroke="meta r" second-keystroke="s"/>
         <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta s"/>

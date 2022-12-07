@@ -950,6 +950,10 @@
         <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r"/>
         <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r"/>
     </action>
+    <action id="RenameFile">
+        <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r"/>
+        <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r"/>
+    </action>
     <action id="ChangeSignature">
         <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="s"/>
         <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl s"/>
