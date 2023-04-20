@@ -67,39 +67,39 @@ Double-chord shortcuts:
 |----------------------|----------------------|--------------------------------------------------------------|
 | `F1`                 | `F1`                 | **Back**                                                     |
 | `Shift+F1`           | `Shift+F1`           | **Forward**                                                  |
-||||
+|                      |                      |                                                              |
 | `F2`                 | `F2`                 | **Last Edit Location**                                       |
 | `Shift+F2`           | `Shift+F2`           | **Next Edit Location**                                       |
-||||
+|                      |                      |                                                              |
 | `Ctrl+F2`            | `Cmd+F2`             | **Next Method**                                              |
 | `Ctrl+F1`            | `Cmd+F1`             | **Previous Method**                                          |
-||||
+|                      |                      |                                                              |
 | `F3`                 | `F3`                 | **Find Next**                                                |
 | `Shift+F3`           | `Shift+F3`           | **Find Previous**                                            |
-||||
+|                      |                      |                                                              |
 | `F4`                 | `F4`                 | **Next Occurrence of the Word at Caret**                     |
 | `Shift+F4`           | `Shift+F4`           | **Previous Occurrence of the Word at Caret**                 |
-||||
+|                      |                      |                                                              |
 | `Ctrl+F4`            | `Cmd+F4`             | **Next Highlighted Error**                                   |
 | `Ctrl+F3`            | `Cmnd+F3`            | **Previous Highlighted Error**                               |
-||||
+|                      |                      |                                                              |
 | `F5`                 | `F5`                 | **Next Change** / **Next Difference in Diff viewer**         |
 | `Shift+F5`           | `Shift+F5`           | **Previous Change** / **Previous Difference in Diff viewer** |
-|||
+|                      |                      |
 | `F6`                 | `F6`                 | **Next Emmet Edit Point**                                    |
 | `Shift+F6`           | `Shift+F6`           | **Previous Emmet Edit Point**                                |
-|||
+|                      |                      |
 | `Ctrl+F7`            | `Cmd+F7`             | **Move Caret to Code Block Start**                           |
 | `Ctrl+F8`            | `Cmd+F8`             | **Move Caret to Code Block End**                             |
 | `Shift+F7`           | `Shift+F7`           | **Move Caret to Code Block Start with Selection**            |
 | `Shift+F8`           | `Shift+F8`           | **Move Caret to Code Block End with Selection**              |
-||||
+|                      |                      |                                                              |
 | `Ctrl+Shift+F7`      | `Cmd+Shift+F7`       | **Go to Containing Declaration**                             |
 | `Ctrl+Shift+F8`      | `Cmd+Shift+F8`       | **Select Containing Declaration**                            |
-||||
+|                      |                      |                                                              |
 | `Ctrl+F6`            | `Cmd+F6`             | **Add selection for Next Occurrence**                        |
 | `Ctrl+Shift+F6`      | `Cmd+Shift+F6`       | **Unselect Occurrence**                                      |
-||||
+|                      |                      |                                                              |
 | `F7`                 | `F7`                 | **Step Out**                                                 |
 | `F8`                 | `F8`                 | **Resume Program**                                           |
 | `F9`                 | `F9`                 | **Step Over**                                                |
@@ -107,28 +107,28 @@ Double-chord shortcuts:
 | `F10`                | `F10`                | **Step Into**                                                |
 | `Shift+F10`          | `Shift+F10`          | **Force Step Into**                                          |
 | `Ctrl+Shift+F10`     | `Cmd+Shift+F10`      | **Smart Step Into**                                          |
-||||
+|                      |                      |                                                              |
 | `F12`                | `F12`                | **Extend Selection**                                         |
 | `Shift+F12`          | `Shift+F12`          | **Shrink Selection**                                         |
-||||
+|                      |                      |                                                              |
 | `Alt+Shift+Down`     | `Ctrl+Shift+Down`    | **Move Statement Down**                                      |
 | `Alt+Shift+Up`       | `Ctrl+Shift+Up`      | **Move Statement Up**                                        |
 | `Alt+Shift+Left`     | `Ctrl+Shift+Left`    | **Move Element Left**                                        |
 | `Alt+Shift+Right`    | `Ctrl+Shift+Right`   | **Move Statement Right**                                     |
-||||
+|                      |                      |                                                              |
 | `Alt+Down`           | `Alt+Down`           | **Move Line Down**                                           |
 | `Alt+Up`             | `Alt+Up`             | **Move Line Up**                                             |
-||||
+|                      |                      |                                                              |
 | `Alt+Left`           | `Cmd+Alt+Left`       | **Select Previous Tab**                                      |
 | `Alt+Right`          | `Cmd+Alt+Right`      | **Select Next Tab**                                          |
-||||
+|                      |                      |                                                              |
 | `Ctrl+[digit]`       | `Ctrl+[digit]`       | **Go to bookmark X**                                         |
 | `Ctrl+Shift+[digit]` | `Ctrl+Shift+[digit]` | **Toggle bookmark X**                                        |
-||||
+|                      |                      |                                                              |
 | `Ctrl+Space`         | `Ctrl+Space`         | **Basic Completion**                                         |
 | `Ctrl+Alt+Space`     | `Ctrl+Alt+Space`     | **Second Basic Completion**                                  |
 | `Ctrl+Shift+Space`   | `Ctrl+Shift+Space`   | **Type-Matching Completion**                                 |
-||||
+|                      |                      |                                                              |
 | `Ctrl+Tab`           | `Ctrl+Tab`           | **Basic Completion**                                         |
 
 ## Double-chord shortcuts
@@ -157,33 +157,34 @@ Double-chord shortcuts:
 <a id="d"></a>
 ### First chord: Ctrl/Cmd+D (debug) - running and debugging
 
-| Second Chord | Mnemonic    | Action                               |
-|--------------|-------------|--------------------------------------|
-| `0`          |             | **Debugger Quick List**              |
-| `A`          | attach      | **Attach to Process**                |
-| `B`          | breakpoints | **View Breakpoints**                 |
-| `C`          | cursor      | **Run to Cursor**                    |
-| `D`          | debug       | **Debug Selected Configuration**     |
-| `E`          | evaluate    | **Evaluate Expression**              |
-| `F`          | find        | **Show Execution Point**             |
-| `I`          | immediate   | **Navigate to Immediate Window**     |
-| `J`          | jump        | **Jump to Statement**                |
-| `K`          | konfig      | **Edit Configurations**              |
-| `L`          | line        | **Toggle Line Breakpoint**           |
-| `N`          | new run     | **Rerun**                            |
-| `O`          | over        | **Stop**                             |
-| `P`          | pause       | **Pause Program**                    |
-| `R`          | run         | **Run Selected Configuration**       |
-| `S`          | skip        | **Force Run to Cursor**              |
-| `T`          | temporary   | **Toggle Temporary Line Breakpoint** |
-| `U`          | update      | **Update Running Application**       |
-| `V`          | value       | **Set Value**                        |
-| `W`          | watch       | **Add to Watches**                   |
-| `X`          |             | **Toggle Breakpoint Enabled**        |
-| `Y`          |             | **Quick Evaluate Expression**        |
-| `1`          |             | **Run... (select configuration)**    |
-| `2`          |             | **Debug... (select configuration)**  |
-| `3`          |             | **Run Context Configuration**        |
+| Second Chord       | Mnemonic    | Action                               |
+|--------------------|-------------|--------------------------------------|
+| `0`                |             | **Debugger Quick List**              |
+| `A`                | attach      | **Attach to Process**                |
+| `Ctrl/Cmd+Shift+A` | attach      | **Reattach to Process** (Rider)      |
+| `B`                | breakpoints | **View Breakpoints**                 |
+| `C`                | cursor      | **Run to Cursor**                    |
+| `D`                | debug       | **Debug Selected Configuration**     |
+| `E`                | evaluate    | **Evaluate Expression**              |
+| `F`                | find        | **Show Execution Point**             |
+| `I`                | immediate   | **Navigate to Immediate Window**     |
+| `J`                | jump        | **Jump to Statement**                |
+| `K`                | konfig      | **Edit Configurations**              |
+| `L`                | line        | **Toggle Line Breakpoint**           |
+| `N`                | new run     | **Rerun**                            |
+| `O`                | over        | **Stop**                             |
+| `P`                | pause       | **Pause Program**                    |
+| `R`                | run         | **Run Selected Configuration**       |
+| `S`                | skip        | **Force Run to Cursor**              |
+| `T`                | temporary   | **Toggle Temporary Line Breakpoint** |
+| `U`                | update      | **Update Running Application**       |
+| `V`                | value       | **Set Value**                        |
+| `W`                | watch       | **Add to Watches**                   |
+| `X`                |             | **Toggle Breakpoint Enabled**        |
+| `Y`                |             | **Quick Evaluate Expression**        |
+| `1`                |             | **Run... (select configuration)**    |
+| `2`                |             | **Debug... (select configuration)**  |
+| `3`                |             | **Run Context Configuration**        |
 
 <a id="e"></a>
 ### First chord: Ctrl/Cmd+E (editor) - editor actions
@@ -194,6 +195,8 @@ Double-chord shortcuts:
 | `4`          |                | **Stretch Split Tab Right**              |
 | `2`          |                | **Stretch Split Tab Up**                 |
 | `3`          |                | **Stretch Split Tab Down**               |
+| `5`          |                | **Split and Move Right**                 |
+| `6`          |                | **Split and Move Down**                  |
 | `0`          |                | **Code Quick List**                      |
 | `A`          | all            | **Select All Occurrences**               |
 | `B`          | bold           | **Markdown: Bold**                       |
@@ -206,6 +209,7 @@ Double-chord shortcuts:
 | `J`          | juxtapose      | **Compare with Clipboard**               |
 | `K`          | kode           | **Markdown: Code**                       |
 | `L`          | link           | **Markdown: Link**                       |
+| `N`          | new            | **Open Current File in New Window**      |
 | `O`          | oppose         | **Compare With**                         |
 | `P`          | parameter      | **Parameter Information**                |
 | `P`          | picture        | **Markdown: Insert Image**               |
@@ -237,18 +241,19 @@ Double-chord shortcuts:
 <a id="i"></a>
 ### First chord: Ctrl/Cmd+I (inspect) - code analysis actions
 
-| Second Chord | Mnemonic   | Action                     |
-|--------------|------------|----------------------------|
-| `0`          |            | **Analyze Quick List**     |
-| `A`          | analyze    | **Inspect Code**           |
-| `B`          |            | **Inspect This**           |
-| `C`          | calls      | **Call Hierarchy**         |
-| `E`          | error      | **Error Description**      |
-| `F`          | functions  | **Method Hierarchy**       |
-| `I`          | imports    | **Imports Hierarchy**      |
-| `N`          | name       | **Run Inspection by Name** |
-| `S`          | stacktrace | **Analyze Stack Trace**    |
-| `T`          | types      | **Type Hierarchy**         |
+| Second Chord | Mnemonic   | Action                       |
+|--------------|------------|------------------------------|
+| `0`          |            | **Analyze Quick List**       |
+| `A`          | analyze    | **Inspect Code**             |
+| `B`          |            | **Inspect This**             |
+| `C`          | calls      | **Call Hierarchy**           |
+| `E`          | error      | **Error Description**        |
+| `F`          | functions  | **Method Hierarchy**         |
+| `I`          | imports    | **Imports Hierarchy** (C++)  |
+| `L`          | incLudes   | **Includes Hierarchy** (C++) |
+| `N`          | name       | **Run Inspection by Name**   |
+| `S`          | stacktrace | **Analyze Stack Trace**      |
+| `T`          | types      | **Type Hierarchy**           |
 
 <a id="j"></a>
 ### First chord: Ctrl/Cmd+J (jump) - single-destination navigation

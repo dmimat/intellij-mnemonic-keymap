@@ -1,14 +1,13 @@
 <idea-plugin>
     <name>Mnemonic Keymap</name>
     <id>com.intellij.plugins.mnemonicKeymap</id>
-    <version>2022.2.4</version>
+    <version>2023.1.0</version>
     <idea-version since-build="211.0000"/>
     <vendor>JetBrains</vendor>
     <category>Keymap</category>
     <change-notes>
-New shortcuts: stretch tool windows (`Cmd/Ctrl+U, 1/2/3/4`)
-and editor tab splits (`Cmd/Ctrl+E, 1/2/3/4`),
-Expression Type Info (`Cmd/Ctrl+E, Y`), VCS Revert (`Cmd/Ctrl+K, Z`),
+New shortcuts: Reattach to Process (Rider `Cmd/Ctrl+D, Ctr/Cmd+Shift+A`), Includes Hierarchy (C++ `Cmd/Ctrl+I, L`)
+Open Source in New Window (`Cmd/Ctrl+E, N`), Move Tab to Right/Down Split (`Cmd/Ctrl+E, 5/6`),
 plus some fixes.
     </change-notes>
 

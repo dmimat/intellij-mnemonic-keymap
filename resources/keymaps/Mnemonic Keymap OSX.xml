@@ -249,6 +249,9 @@
         <keyboard-shortcut first-keystroke="meta d" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="meta d" second-keystroke="meta a"/>
     </action>
+    <action id="RiderReattach">
+        <keyboard-shortcut first-keystroke="meta d" second-keystroke="meta shift a"/>
+    </action>
     <action id="ViewBreakpoints">
         <keyboard-shortcut first-keystroke="meta d" second-keystroke="b"/>
         <keyboard-shortcut first-keystroke="meta d" second-keystroke="meta b"/>
@@ -365,6 +368,14 @@
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="3" />
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta 3" />
     </action>
+    <action id="MoveTabRight">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="5" />
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta 5" />
+    </action>
+    <action id="MoveTabDown">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="6" />
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta 6" />
+    </action>
     <action id="SelectAllOccurrences">
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta a"/>
@@ -413,6 +424,10 @@
     <action id="Markdown.Styling.CreateLink">
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="l"/>
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta l"/>
+    </action>
+    <action id="EditSourceInNewWindow">
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="n"/>
+        <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta n"/>
     </action>
     <action id="CompareTwoFiles">
         <keyboard-shortcut first-keystroke="meta e" second-keystroke="o"/>
@@ -547,8 +562,8 @@
         <keyboard-shortcut first-keystroke="meta i" second-keystroke="meta c"/>
     </action>
     <action id="ShowErrorDescription">
-        <keyboard-shortcut first-keystroke="meta i" second-keystroke="d"/>
-        <keyboard-shortcut first-keystroke="meta i" second-keystroke="meta d"/>
+        <keyboard-shortcut first-keystroke="meta i" second-keystroke="e"/>
+        <keyboard-shortcut first-keystroke="meta i" second-keystroke="meta e"/>
     </action>
     <action id="MethodHierarchy">
         <keyboard-shortcut first-keystroke="meta i" second-keystroke="f"/>
@@ -557,6 +572,10 @@
     <action id="CIDR.Lang.ImportsHierarchy">
         <keyboard-shortcut first-keystroke="meta i" second-keystroke="i"/>
         <keyboard-shortcut first-keystroke="meta i" second-keystroke="meta i"/>
+    </action>
+    <action id="CppIncludesHierarchy">
+        <keyboard-shortcut first-keystroke="meta i" second-keystroke="l"/>
+        <keyboard-shortcut first-keystroke="meta i" second-keystroke="meta l"/>
     </action>
     <action id="RunInspection">
         <keyboard-shortcut first-keystroke="meta i" second-keystroke="n"/>

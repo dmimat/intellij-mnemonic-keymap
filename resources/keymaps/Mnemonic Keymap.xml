@@ -228,6 +228,9 @@
         <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="ctrl a"/>
     </action>
+    <action id="RiderReattach">
+        <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="ctrl shift a"/>
+    </action>
     <action id="ViewBreakpoints">
         <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="b"/>
         <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="ctrl b"/>
@@ -344,6 +347,14 @@
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="3" />
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl 3" />
     </action>
+    <action id="MoveTabRight">
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="5" />
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl 5" />
+    </action>
+    <action id="MoveTabDown">
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="6" />
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl 6" />
+    </action>
     <action id="SelectAllOccurrences">
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="a"/>
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl a"/>
@@ -392,6 +403,10 @@
     <action id="Markdown.Styling.CreateLink">
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="l"/>
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl l"/>
+    </action>
+    <action id="EditSourceInNewWindow">
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="n"/>
+        <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl n"/>
     </action>
     <action id="CompareTwoFiles">
         <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="o"/>
@@ -536,6 +551,10 @@
     <action id="CIDR.Lang.ImportsHierarchy">
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="i"/>
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl i"/>
+    </action>
+    <action id="CppIncludesHierarchy">
+        <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="l"/>
+        <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl l"/>
     </action>
     <action id="RunInspection">
         <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="n"/>
