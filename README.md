@@ -325,7 +325,7 @@ Double-chord shortcuts:
 | `F`          | find           | **Find in Files**                           |
 | `G`          | go             | **Search Everywhere**                       |
 | `I`          | implementation | **Go to Implementations / Derived Symbols** |
-| `J`          |                | **Structure / Go to File Member**           |
+| `J`          | jump           | **Structure / Jump to File Member**         |
 | `K`          | kode           | **Go to Implementation**                    |
 | `L`          | list           | **Show Usages**                             |
 | `N`          | navigate       | **Navigate To**                             |
