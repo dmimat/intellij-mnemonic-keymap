@@ -702,7 +702,15 @@
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="u"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u"/>
     </action>
+    <action id="Annotate">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="y"/>
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta y"/>
+    </action>
     <action id="ChangesView.Revert">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="z"/>
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta z"/>
+    </action>
+    <action id="Vcs.RollbackChangedLines">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="z"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta z"/>
     </action>
@@ -1392,7 +1400,6 @@
     <action id="ToggleFindInSelection"/>
     <action id="ToggleRenderedDocPresentation"/>
     <action id="Tree-startEditing"/>
-    <action id="Vcs.RollbackChangedLines"/>
     <action id="Vcs.ToggleAmendCommitMode"/>
     <action id="Git.Rename.Local.Branch">
         <keyboard-shortcut first-keystroke="f2"/>

@@ -290,6 +290,7 @@ Double-chord shortcuts:
 | `P`          | push     | **Push**             |
 | `R`          | requests | **Pull Requests**    |
 | `U`          | update   | **Update**           |
+| `Y`          | why      | **Annotate**         |
 | `Z`          |          | **Revert/Roll back** |
 
 <a id="l"></a>
