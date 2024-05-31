@@ -981,6 +981,18 @@
         <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r"/>
         <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r"/>
     </action>
+    <action id="ChangesView.Rename">
+        <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r"/>
+        <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r"/>
+    </action>
+    <action id="Git.Reword.Commit">
+        <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r"/>
+        <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r"/>
+    </action>
+    <action id="ShelvedChanges.Rename">
+        <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r"/>
+        <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r"/>
+    </action>
     <action id="ChangeSignature">
         <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="s"/>
         <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl s"/>
@@ -1322,7 +1334,6 @@
 
     <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive"/>
     <action id="ChangesView.GroupBy.Directory"/>
-    <action id="ChangesView.Rename"/>
     <action id="ChangesView.ShelveSilently"/>
     <action id="ChangesView.UnshelveSilently"/>
     <action id="CloseActiveTab"/>
@@ -1365,7 +1376,6 @@
     <action id="RiderUnitTestDotMemoryUnitSolutionAction"/>
     <action id="RiderUnitTestRunContextUntilFailAction"/>
     <action id="ShelveChanges.UnshelveWithDialog"/>
-    <action id="ShelvedChanges.Rename"/>
     <action id="ShowFilterPopup"/>
     <action id="ShowTypeBookmarks"/>
     <action id="ShowUmlDiagram"/>
@@ -1382,9 +1392,6 @@
     <action id="EditorChooseLookupItemDot"/>
     <action id="Vcs.ToggleAmendCommitMode"/>
     <action id="Git.Rename.Local.Branch">
-        <keyboard-shortcut first-keystroke="f2"/>
-    </action>
-    <action id="Git.Reword.Commit">
         <keyboard-shortcut first-keystroke="f2"/>
     </action>
 </keymap>
