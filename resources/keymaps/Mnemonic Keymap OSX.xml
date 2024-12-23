@@ -694,6 +694,14 @@
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="l"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta l"/>
     </action>
+    <action id="Git.New.Branch.In.Log">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="n" />
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta n" />
+    </action>
+    <action id="GitNewBranchAction">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="n" />
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta n" />
+    </action>
     <action id="Vcs.Push">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="p"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift p"/>

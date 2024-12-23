@@ -287,6 +287,7 @@ Double-chord shortcuts:
 | `F`          | fetch    | **Fetch**            |
 | `K`          | kommit   | **Commit and Push**  |
 | `L`          |          | **Pull**             |
+| `N`          | new      | **New Branch**       |
 | `P`          | push     | **Push**             |
 | `R`          | requests | **Pull Requests**    |
 | `U`          | update   | **Update**           |

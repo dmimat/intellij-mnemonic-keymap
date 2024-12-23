@@ -673,6 +673,14 @@
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="l"/>
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl l"/>
     </action>
+    <action id="Git.New.Branch.In.Log">
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="n" />
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
+    </action>
+    <action id="GitNewBranchAction">
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="n" />
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl n" />
+    </action>
     <action id="Vcs.Push">
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="p"/>
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift p"/>
