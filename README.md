@@ -1,7 +1,7 @@
 # Mnemonic Keymap
 
 A keymap for all IntelliJ-based IDEs where most shortcuts have two keystrokes:
-the first one defines a group and the second one defines an action in this group
+the first one defines a group, and the second one defines an action in this group
 (e.g. `Ctrl/Cmd+D, A` for **Debug > Attach to Process** or
 `Ctrl/Cmd+N, U` for **Navigate > Find Usages**).
 
@@ -293,7 +293,7 @@ Double-chord shortcuts:
 | `R`          | requests  | **Pull Requests**              |
 | `U`          | update    | **Update**                     |
 | `V`          | visualize | **Show Local Changes as UML**  |
-| `Y`          | why       | **Annotate**                   |
+| `W`          | why       | **Annotate**                   |
 | `Z`          |           | **Revert/Roll back**           |
 
 <a id="l"></a>
@@ -329,7 +329,7 @@ Double-chord shortcuts:
 | `F`          | find           | **Find in Files**                           |
 | `G`          | go             | **Search Everywhere**                       |
 | `I`          | implementation | **Go to Implementations / Derived Symbols** |
-| `J`          | jump           | **Structure / Jump to File Member**         |
+| `J`          | jump           | **Structure / File Member**                 |
 | `K`          | kode           | **Go to Implementation**                    |
 | `L`          | list           | **Show Usages**                             |
 | `N`          | navigate       | **Navigate To**                             |

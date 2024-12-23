@@ -698,8 +698,8 @@
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl v"/>
     </action>
     <action id="Annotate">
-        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="y"/>
-        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl y"/>
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w"/>
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl w"/>
     </action>
     <action id="ChangesView.Revert">
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="z"/>

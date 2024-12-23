@@ -719,8 +719,8 @@
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta v"/>
     </action>
     <action id="Annotate">
-        <keyboard-shortcut first-keystroke="meta k" second-keystroke="y"/>
-        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta y"/>
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="w"/>
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w"/>
     </action>
     <action id="ChangesView.Revert">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="z"/>
