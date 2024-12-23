@@ -38,7 +38,7 @@ Double-chord shortcuts:
 - [Ctrl/Cmd+U (utilities) - global helper actions](#u)
 - [Ctrl/Cmd+W (window) - manipulate tool windows](#w)
 
-> **NOTE:**  Availability of the actions listed below depends on your IDE and installed plugins
+> **NOTE:** Availability of the actions listed below depends on your IDE and installed plugins
 
 ## Single-chord shortcuts
 
@@ -277,22 +277,24 @@ Double-chord shortcuts:
 <a id="k"></a>
 ### First chord: Ctrl/Cmd+K (kommit) - VCS actions
 
-| Second Chord | Mnemonic | Action               |
-|--------------|----------|----------------------|
-| `0`          |          | **VCS Operations**   |
-| `A`          | add      | **Add to VCS**       |
-| `B`          | branches | **Branches**         |
-| `C`          | commit   | **Commit**           |
-| `D`          | diff     | **Show Diff**        |
-| `F`          | fetch    | **Fetch**            |
-| `K`          | kommit   | **Commit and Push**  |
-| `L`          |          | **Pull**             |
-| `N`          | new      | **New Branch**       |
-| `P`          | push     | **Push**             |
-| `R`          | requests | **Pull Requests**    |
-| `U`          | update   | **Update**           |
-| `Y`          | why      | **Annotate**         |
-| `Z`          |          | **Revert/Roll back** |
+| Second Chord | Mnemonic  | Action                         |
+|--------------|-----------|--------------------------------|
+| `0`          |           | **VCS Operations**             |
+| `A`          | add       | **Add to VCS**                 |
+| `B`          | branches  | **Branches**                   |
+| `C`          | commit    | **Commit**                     |
+| `D`          | diff      | **Show Diff**                  |
+| `F`          | fetch     | **Fetch**                      |
+| `G`          | group     | **Move to Another Changelist** |
+| `K`          | kommit    | **Commit and Push**            |
+| `L`          |           | **Pull**                       |
+| `N`          | new       | **New Branch**                 |
+| `P`          | push      | **Push**                       |
+| `R`          | requests  | **Pull Requests**              |
+| `U`          | update    | **Update**                     |
+| `V`          | visualize | **Show Local Changes as UML**  |
+| `Y`          | why       | **Annotate**                   |
+| `Z`          |           | **Revert/Roll back**           |
 
 <a id="l"></a>
 ### First chord: Ctrl/Cmd+L (line) - manipulate code lines

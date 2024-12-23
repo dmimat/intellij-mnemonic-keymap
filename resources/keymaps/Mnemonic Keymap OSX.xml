@@ -686,6 +686,10 @@
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="f"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta f"/>
     </action>
+    <action id="ChangesView.Move">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="g"/>
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta g"/>
+    </action>
     <action id="Git.Commit.And.Push.Executor">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="k"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta k"/>
@@ -709,6 +713,10 @@
     <action id="Vcs.UpdateProject">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="u"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u"/>
+    </action>
+    <action id="UML.ShowChanges">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="v"/>
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta v"/>
     </action>
     <action id="Annotate">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="y"/>
