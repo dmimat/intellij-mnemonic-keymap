@@ -81,7 +81,7 @@ Double-chord shortcuts:
 | `Shift+F4`           | `Shift+F4`           | **Previous Occurrence of the Word at Caret**                 |
 |                      |                      |                                                              |
 | `Ctrl+F4`            | `Cmd+F4`             | **Next Highlighted Error**                                   |
-| `Ctrl+F3`            | `Cmnd+F3`            | **Previous Highlighted Error**                               |
+| `Ctrl+F3`            | `Cmd+F3`             | **Previous Highlighted Error**                               |
 |                      |                      |                                                              |
 | `F5`                 | `F5`                 | **Next Change** / **Next Difference in Diff viewer**         |
 | `Shift+F5`           | `Shift+F5`           | **Previous Change** / **Previous Difference in Diff viewer** |
@@ -290,6 +290,7 @@ Double-chord shortcuts:
 | `P`          | push     | **Push**             |
 | `R`          | requests | **Pull Requests**    |
 | `U`          | update   | **Update**           |
+| `Y`          | why      | **Annotate**         |
 | `Z`          |          | **Revert/Roll back** |
 
 <a id="l"></a>
