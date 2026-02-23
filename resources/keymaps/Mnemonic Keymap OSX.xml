@@ -231,6 +231,10 @@
         <keyboard-shortcut first-keystroke="meta b" second-keystroke="meta u"/>
         <keyboard-shortcut first-keystroke="shift meta delete"/>
     </action>
+    <action id="SurroundWithLiveTemplate">
+        <keyboard-shortcut first-keystroke="meta b" second-keystroke="w"/>
+        <keyboard-shortcut first-keystroke="meta b" second-keystroke="meta w"/>
+    </action>
     <action id="CopyAsPlainText">
         <keyboard-shortcut first-keystroke="meta b" second-keystroke="x"/>
         <keyboard-shortcut first-keystroke="meta b" second-keystroke="meta x"/>
@@ -1418,7 +1422,6 @@
     <action id="ShowUmlDiagram"/>
     <action id="ShowUmlDiagramPopup"/>
     <action id="StopBackgroundProcesses"/>
-    <action id="SurroundWithLiveTemplate"/>
     <action id="SwitchCodeToDesigner"/>
     <action id="SwitchDesignerToCode"/>
     <action id="SwitcherIterateItems"/>

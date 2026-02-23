@@ -151,6 +151,7 @@ Double-chord shortcuts:
 | `S`          | surround    | **Surround With...**                     |
 | `T`          | template    | **Insert Live Template**                 |
 | `U`          | unwrap      | **Unwrap / Remove**                      |
+| `W`          | wrap        | **Surround with Live Template**          |
 | `X`          | Xtract      | **Copy as Plain Text**                   |
 
 

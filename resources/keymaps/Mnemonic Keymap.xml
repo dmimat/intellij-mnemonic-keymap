@@ -210,6 +210,10 @@
         <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl u"/>
         <keyboard-shortcut first-keystroke="shift ctrl delete"/>
     </action>
+    <action id="SurroundWithLiveTemplate">
+        <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="w"/>
+        <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl w"/>
+    </action>
     <action id="CopyAsPlainText">
         <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="x"/>
         <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl x"/>
@@ -1397,7 +1401,6 @@
     <action id="ShowUmlDiagram"/>
     <action id="ShowUmlDiagramPopup"/>
     <action id="StopBackgroundProcesses"/>
-    <action id="SurroundWithLiveTemplate"/>
     <action id="SwitchCodeToDesigner"/>
     <action id="SwitchDesignerToCode"/>
     <action id="SwitcherIterateItems"/>

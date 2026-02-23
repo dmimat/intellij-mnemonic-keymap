@@ -1,13 +1,12 @@
 <idea-plugin>
     <name>Mnemonic Keymap</name>
     <id>com.intellij.plugins.mnemonicKeymap</id>
-    <version>2024.1.0</version>
+    <version>2026.1.0</version>
     <idea-version since-build="211.0000"/>
     <vendor>JetBrains</vendor>
     <category>Keymap</category>
     <change-notes>
-New shortcuts for VCS actions: Move to Another Changelist (`Cmd/Ctrl+K, G`), New Branch (`Cmd/Ctrl+K, N`),
-Show Local Changes as UML (`Cmd/Ctrl+K, V`), Annotate (`Cmd/Ctrl+K, W`).
+Add shortcuts for Surround with Live Template (`Cmd/Ctrl+B, W`).
     </change-notes>
 
     <description><![CDATA[
