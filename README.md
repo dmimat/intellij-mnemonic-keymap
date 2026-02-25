@@ -287,6 +287,7 @@ Double-chord shortcuts:
 | `D`          | diff      | **Show Diff**                  |
 | `F`          | fetch     | **Fetch**                      |
 | `G`          | group     | **Move to Another Changelist** |
+| `I`          | hIstory   | **Show History**               |
 | `K`          | kommit    | **Commit and Push**            |
 | `L`          |           | **Pull**                       |
 | `N`          | new       | **New Branch**                 |

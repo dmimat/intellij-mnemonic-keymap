@@ -673,6 +673,10 @@
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="g"/>
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl g"/>
     </action>
+    <action id="Vcs.ShowTabbedFileHistory">
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="i" />
+        <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl i" />
+    </action>
     <action id="Git.Commit.And.Push.Executor">
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="k"/>
         <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k"/>
