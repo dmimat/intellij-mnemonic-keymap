@@ -1,7 +1,10 @@
 # Mnemonic Keymap
 
-A keymap for all IntelliJ-based IDEs where most shortcuts have two keystrokes:
-the first one defines a group, and the second one defines an action in this group
+A keymap for all
+[JetBrains IntelliJ-based IDEs](https://www.jetbrains.com/ides/#choose-your-ide) 
+and
+[Android Studio](https://developer.android.com/studio), where most shortcuts have two keystrokes:
+the first one defines a group, and the second one defines an action in that group
 (e.g. `Ctrl/Cmd+D, A` for **Debug > Attach to Process** or
 `Ctrl/Cmd+N, U` for **Navigate > Find Usages**).
 
@@ -14,6 +17,13 @@ You may want to try out this keymap if some of the following features are import
 - No conflicts on non-English Latin keyboards
 
 Specific key bindings are listed below by category.
+
+To use this [keymap plugin](https://plugins.jetbrains.com/plugin/19094-mnemonic-keymap),
+go to **Settings > Plugins > Marketplace** in your IDE,
+look for **Mnemonic Keymap** in the list, and click **Install**.
+After installing the plugin, go the **Keymap** settings page and select **Mnemonic Keymap**
+on Windows and Linux or 
+**Mnemonic Keymap (macOS)** on macOS.
 
 Single-chord shortcuts:
 
@@ -288,9 +298,11 @@ Double-chord shortcuts:
 | `F`          | fetch     | **Fetch**                      |
 | `G`          | group     | **Move to Another Changelist** |
 | `I`          | hIstory   | **Show History**               |
+| `J`          | join      | **Merge**                      |
 | `K`          | kommit    | **Commit and Push**            |
-| `L`          |           | **Pull**                       |
+| `L`          | puLL      | **Pull**                       |
 | `N`          | new       | **New Branch**                 |
+| `O`          | origins   | **Manage Remotes**             |
 | `P`          | push      | **Push**                       |
 | `R`          | requests  | **Pull Requests**              |
 | `U`          | update    | **Update**                     |

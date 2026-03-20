@@ -698,6 +698,10 @@
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="i" />
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta i" />
     </action>
+    <action id="Git.Merge">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="j" />
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta j" />
+    </action>
     <action id="Git.Commit.And.Push.Executor">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="k"/>
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta k"/>
@@ -713,6 +717,10 @@
     <action id="GitNewBranchAction">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="n" />
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta n" />
+    </action>
+    <action id="Git.Configure.Remotes">
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="o" />
+        <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta o" />
     </action>
     <action id="Vcs.Push">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="p"/>
