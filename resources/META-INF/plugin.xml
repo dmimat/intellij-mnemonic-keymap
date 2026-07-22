@@ -1,12 +1,12 @@
 <idea-plugin>
     <name>Mnemonic Keymap</name>
     <id>com.intellij.plugins.mnemonicKeymap</id>
-    <version>2026.1.2</version>
+    <version>2026.2.1</version>
     <idea-version since-build="211.0000"/>
     <vendor>JetBrains</vendor>
     <category>Keymap</category>
     <change-notes>
-Add VCS shortcuts: `Cmd/Ctrl+K, J` for Merge and `Cmd/Ctrl+K, O` for Manage Remotes
+Support Double-Shift for 'Search Everywhere'
     </change-notes>
 
     <description><![CDATA[

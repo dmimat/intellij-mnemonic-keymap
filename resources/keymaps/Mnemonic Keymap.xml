@@ -804,6 +804,7 @@
     <action id="SearchEverywhere">
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="g"/>
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="ctrl g"/>
+        <keyboard-gesture-shortcut keystroke="shift SHIFT" modifier="dblClick"/>
     </action>
     <action id="GotoImplementation">
         <keyboard-shortcut first-keystroke="ctrl n" second-keystroke="i"/>

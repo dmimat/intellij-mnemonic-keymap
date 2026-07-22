@@ -825,6 +825,7 @@
     <action id="SearchEverywhere">
         <keyboard-shortcut first-keystroke="meta n" second-keystroke="g"/>
         <keyboard-shortcut first-keystroke="meta n" second-keystroke="meta g"/>
+        <keyboard-gesture-shortcut keystroke="shift SHIFT" modifier="dblClick"/>
     </action>
     <action id="GotoImplementation">
         <keyboard-shortcut first-keystroke="meta n" second-keystroke="i"/>
